@@ -1,0 +1,11 @@
+X:\Nextech\nextech_solution\hacker_news_server\bin\Debug\netcoreapp2.2\hacker_news_server.deps.json
+X:\Nextech\nextech_solution\hacker_news_server\bin\Debug\netcoreapp2.2\hacker_news_server.runtimeconfig.json
+X:\Nextech\nextech_solution\hacker_news_server\bin\Debug\netcoreapp2.2\hacker_news_server.runtimeconfig.dev.json
+X:\Nextech\nextech_solution\hacker_news_server\bin\Debug\netcoreapp2.2\hacker_news_server.dll
+X:\Nextech\nextech_solution\hacker_news_server\bin\Debug\netcoreapp2.2\hacker_news_server.pdb
+X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.csprojAssemblyReference.cache
+X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.csproj.CoreCompileInputs.cache
+X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.AssemblyInfoInputs.cache
+X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.AssemblyInfo.cs
+X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.dll
+X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.pdb
