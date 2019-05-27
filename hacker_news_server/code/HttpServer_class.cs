@@ -12,7 +12,17 @@ namespace hacker_news_server.code
     {
         #region Variables
 
+        /// <summary>
+        /// Internal flag that tracks if this server is already running
+        /// </summary>
+        bool already_running = false;
+
         HttpListener listener = null;
+
+        /// <summary>
+        /// The cancellation object that is used to cancel any Task based operations
+        /// </summary>
+        CancellationTokenSource cts = null;
 
         #endregion
 
@@ -24,12 +34,34 @@ namespace hacker_news_server.code
            
         }
 
+        public void shutdown()
+        {
+            try
+            {
+                cts?.CancelAfter(TimeSpan.FromSeconds(1));
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
         public bool run(string prefix)
         {
             bool result = false;
 
             try
             {
+                if(already_running == true)
+                {
+                    Console.Out.WriteLine("Server is already running.");
+
+                    return result;
+                }
+
+                already_running = true;
+
+                cts = new CancellationTokenSource();
 
                 listener = new HttpListener();
 
@@ -39,17 +71,17 @@ namespace hacker_news_server.code
 
                 Task.Run(async delegate {
 
-                    while (listener.IsListening)
+                    while (listener.IsListening && !cts.Token.IsCancellationRequested)
                     {
                         await listener.GetContextAsync().ContinueWith((obj) => {
 
-                                process_request(obj);
+                                process_request(obj, cts.Token);
         
 
                         });
                     }
 
-                });
+                }, cts.Token);
 
                 result = true;
             }
@@ -61,7 +93,7 @@ namespace hacker_news_server.code
             return result;
         }
 
-        void process_request(Task<HttpListenerContext> context)
+        void process_request(Task<HttpListenerContext> context, CancellationToken token)
         {
             HttpListenerContext http_context = context.Result;
 
@@ -71,8 +103,11 @@ namespace hacker_news_server.code
 
             try
             {
+                if(token.IsCancellationRequested)
+                {
+                    return;
+                }
                
-
                 switch (request.RawUrl)
                 {
                     default:
