@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj": {}
+    "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj": {}
   },
   "projects": {
-    "X:\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj": {
+    "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj",
+        "projectUniqueName": "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj",
         "projectName": "hacker_news_server",
-        "projectPath": "X:\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj",
+        "projectPath": "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj",
         "packagesPath": "C:\\Users\\royz0001\\.nuget\\packages\\",
-        "outputPath": "X:\\Nextech\\nextech_solution\\hacker_news_server\\obj\\",
+        "outputPath": "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\hacker_news_server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -8,16 +8,19 @@ namespace hacker_news_server
     {
         static void Main(string[] args)
         {
+            string prefix = "http://*:80/";
+
+            string version = "1.001";
 
             HN_aggregator_class fff = new HN_aggregator_class();
 
             fff.intialize_aggregation();
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Server ready. Listening on: " + prefix + " version: " + version);
 
             HttpServer_class server = new HttpServer_class(fff);
 
-            server.run("http://localhost:4400/");
+            server.run(prefix);
 
 
             Console.ReadLine();

@@ -5575,11 +5575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Nextech\\nextech_solution\\TestProject\\HNTestProject.csproj",
+      "projectUniqueName": "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\TestProject\\HNTestProject.csproj",
       "projectName": "HNTestProject",
-      "projectPath": "X:\\Nextech\\nextech_solution\\TestProject\\HNTestProject.csproj",
+      "projectPath": "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\TestProject\\HNTestProject.csproj",
       "packagesPath": "C:\\Users\\royz0001\\.nuget\\packages\\",
-      "outputPath": "X:\\Nextech\\nextech_solution\\TestProject\\obj\\",
+      "outputPath": "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5598,8 +5598,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "X:\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj": {
-              "projectPath": "X:\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj"
+            "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj": {
+              "projectPath": "C:\\Users\\royz0001\\source\\repos\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj"
             }
           }
         }
