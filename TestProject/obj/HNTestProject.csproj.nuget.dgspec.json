@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "X:\\Nextech\\nextech_solution\\TestProject\\TestProject.csproj": {}
+    "X:\\Nextech\\nextech_solution\\TestProject\\HNTestProject.csproj": {}
   },
   "projects": {
     "X:\\Nextech\\nextech_solution\\hacker_news_server\\hacker_news_server.csproj": {
@@ -60,12 +60,12 @@
         }
       }
     },
-    "X:\\Nextech\\nextech_solution\\TestProject\\TestProject.csproj": {
+    "X:\\Nextech\\nextech_solution\\TestProject\\HNTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\Nextech\\nextech_solution\\TestProject\\TestProject.csproj",
-        "projectName": "TestProject",
-        "projectPath": "X:\\Nextech\\nextech_solution\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "X:\\Nextech\\nextech_solution\\TestProject\\HNTestProject.csproj",
+        "projectName": "HNTestProject",
+        "projectPath": "X:\\Nextech\\nextech_solution\\TestProject\\HNTestProject.csproj",
         "packagesPath": "C:\\Users\\royz0001\\.nuget\\packages\\",
         "outputPath": "X:\\Nextech\\nextech_solution\\TestProject\\obj\\",
         "projectStyle": "PackageReference",

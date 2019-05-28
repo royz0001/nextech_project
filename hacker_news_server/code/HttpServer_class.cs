@@ -17,6 +17,9 @@ namespace hacker_news_server.code
         /// </summary>
         bool already_running = false;
 
+        /// <summary>
+        /// Listener object that handles incomming requests.
+        /// </summary>
         HttpListener listener = null;
 
         /// <summary>
@@ -24,14 +27,19 @@ namespace hacker_news_server.code
         /// </summary>
         CancellationTokenSource cts = null;
 
+        /// <summary>
+        /// data aggregator
+        /// </summary>
+        HN_aggregator_class aggregator = null;
+
         #endregion
 
         /// <summary>
         /// CONSTRUCTOR
         /// </summary>
-        public HttpServer_class()
+        public HttpServer_class(HN_aggregator_class _aggregator)
         {
-           
+            aggregator = _aggregator;
         }
 
         public void shutdown()
@@ -77,7 +85,6 @@ namespace hacker_news_server.code
 
                                 process_request(obj, cts.Token);
         
-
                         });
                     }
 
@@ -137,13 +144,15 @@ namespace hacker_news_server.code
             }
             finally
             {
-                http_context?.Response.Close();
+                http_context?.Response?.Close();
             }
 
         }
 
         void stream_homepage(Stream stream)
         {
+            var list = aggregator.search_title(null);
+
             using (StreamWriter sw = new StreamWriter(stream))
             {
                 TextWriter tw = sw;
@@ -151,8 +160,25 @@ namespace hacker_news_server.code
                 tw.WriteLine("<!doctype html>");
                 tw.WriteLine("<html>");
                     tw.WriteLine("<body>");
-                        tw.WriteLine("<H1>It worked</H1>");
-                    tw.WriteLine("</body>");
+
+                    if (list.Count == 0)
+                    {
+                        tw.WriteLine("<H1>No results available</H1>");
+                    }
+                    else
+                    {
+                        tw.WriteLine("<UL>");
+                        for (int i = 0; i < list.Count; i++)
+                        {
+                            tw.WriteLine("<li>");
+                            tw.WriteLine($"<p>{list[i].Author}</p><a href='{list[i].URL}'>{list[i].Title}</a>");
+                            tw.WriteLine("</li>");
+                        }
+                        tw.WriteLine("</UL>");
+
+                    }
+
+                tw.WriteLine("</body>");
                 tw.WriteLine("</html>");
 
                 tw.Flush();

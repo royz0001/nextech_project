@@ -1,0 +1,17 @@
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\HNTestProject.deps.json
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\HNTestProject.runtimeconfig.json
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\HNTestProject.runtimeconfig.dev.json
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\HNTestProject.dll
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\HNTestProject.pdb
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\hacker_news_server.dll
+X:\Nextech\nextech_solution\TestProject\bin\Debug\netcoreapp2.2\hacker_news_server.pdb
+X:\Nextech\nextech_solution\TestProject\obj\Debug\netcoreapp2.2\HNTestProject.csprojAssemblyReference.cache
+X:\Nextech\nextech_solution\TestProject\obj\Debug\netcoreapp2.2\HNTestProject.csproj.CoreCompileInputs.cache
+X:\Nextech\nextech_solution\TestProject\obj\Debug\netcoreapp2.2\HNTestProject.AssemblyInfoInputs.cache
+X:\Nextech\nextech_solution\TestProject\obj\Debug\netcoreapp2.2\HNTestProject.AssemblyInfo.cs
+X:\Nextech\nextech_solution\TestProject\obj\Debug\netcoreapp2.2\HNTestProject.csproj.CopyComplete
+X:\Nextech\nextech_solution\TestProject\obj\Debug\netcoreapp2.2\HNTestProject.dll
+X:\Nextech\nextech_solution\TestProject\obj\Debug\netcoreapp2.2\HNTestProject.pdb

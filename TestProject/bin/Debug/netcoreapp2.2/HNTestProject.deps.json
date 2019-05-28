@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "TestProject/1.0.0": {
+      "HNTestProject/1.0.0": {
         "dependencies": {
           "MSTest.TestAdapter": "1.4.0",
           "MSTest.TestFramework": "1.4.0",
@@ -14,7 +14,7 @@
           "hacker_news_server": "1.0.0"
         },
         "runtime": {
-          "TestProject.dll": {}
+          "HNTestProject.dll": {}
         }
       },
       "Microsoft.CodeCoverage/16.0.1": {
@@ -964,7 +964,7 @@
     }
   },
   "libraries": {
-    "TestProject/1.0.0": {
+    "HNTestProject/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
