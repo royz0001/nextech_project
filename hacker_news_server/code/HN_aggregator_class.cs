@@ -141,6 +141,8 @@ namespace hacker_news_server.code
 
                 if(add_new_hacker_news_items(new_hn_items_list) == true)
                 {
+                    Console.WriteLine("Added New: " + new_hn_items_list.Count + " listings.");
+
                     NewArticlesAreAvailable_event?.Invoke(this, null);
 
                     trim_records(MAX_RECORD_COUNT);

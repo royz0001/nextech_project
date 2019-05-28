@@ -8,3 +8,4 @@ X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_ne
 X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.AssemblyInfo.cs
 X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.dll
 X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.pdb
+X:\Nextech\nextech_solution\hacker_news_server\obj\Debug\netcoreapp2.2\hacker_news_server.csprojAssemblyReference.cache
